@@ -22,7 +22,7 @@ const grid = document.getElementById('grid');
     const cell = document.createElement('div');
     cell.className = 'cell';
 
-if (Math.random() < INVERT_PROBABILITY) {
+if (Math.random() < INVERT_PROBABILITY){
    cell.classList.add("black");
 }
      
